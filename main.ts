@@ -1,4 +1,3 @@
-led.plot(4, 10)
-basic.forever(function () {
-    led.plot(10, 5)
+input.onButtonPressed(Button.A, function () {
+    basic.showNumber(randint(0, 6))
 })
